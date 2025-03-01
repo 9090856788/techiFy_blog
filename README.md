@@ -47,6 +47,7 @@ TechStack used:
 
 step 1: Create account in NeonDB & create the project & collect the DB URL.
 step 2: Install Prisma & prisma client with initilize it.
-step 3: create .env file in root directory & paste the DATABASE_URL.
+step 3: create .env file in the src directory & paste the DATABASE_URL.
 step 4: create schema in prisma generated file. Based on our blogging application we have 4 schema, thats are : user, article, comment & like.
-step 5: 
+step 5: Push the schema to neon db.
+step 7: go to shadcn UI webpage & configure it.
