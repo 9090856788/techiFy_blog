@@ -1,12 +1,14 @@
-import { Button } from "@/components/ui/button";
 import React from "react";
+import Navbar from "@/components/home/Navbar";
 
 const Home = () => {
   return (
     <>
-      <Button>Testing Button</Button>
+      <div>
+        <Navbar />
+      </div>
     </>
-  )
+  );
 };
 
 export default Home;
